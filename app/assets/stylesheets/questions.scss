@@ -1,0 +1,33 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Lobster');
+
+body{
+  background-image:url(nat.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction:column;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  color:rgba(244, 109, 65, 0.9);
+}
+p, .form, .link{
+  font-family: 'Dancing Script', cursive;
+  font-size:30px;
+  text-decoration:none;
+  color:rgb(244, 109, 65);
+}
+input {
+    font-family: 'Dancing Script', cursive;
+}
+
+.link :hover{
+  color:rgb(239, 67, 11);
+}
